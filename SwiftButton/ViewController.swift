@@ -1,25 +1,20 @@
-//
-//  ViewController.swift
-//  SwiftButton
-//
-//  Created by Musumi Sato on 2018/07/21.
-//  Copyright © 2018年 Musumi Sato. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    var count: Int = 5
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // 勝手に呼ばれる箇所
+        
+        count = 10
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
-
-
 }
 
